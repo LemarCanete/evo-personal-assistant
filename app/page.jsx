@@ -19,7 +19,7 @@ export default function Home() {
 
     useEffect(() => {
 		createChat({
-			webhookUrl: 'https://dsva.app.n8n.cloud/webhook/e4e54530-3a9e-4208-9f59-5c1c7550b91f/chat',
+			webhookUrl: 'https://n8n-n8n.q32w7w.easypanel.host/webhook/e4e54530-3a9e-4208-9f59-5c1c7550b91f/chat',
             initialMessages: [
                 'Hi there! 👋',
                 'My name is Evo. How can I assist you today?'
