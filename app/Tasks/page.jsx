@@ -17,7 +17,7 @@ const Tasks = () => {
     const [tasks, setTasks] = useState([])
 
     useEffect(() => {
-        const url = 'https://n8n-production-1b3a.up.railway.app/webhook/93afffd9-2225-4b18-95b3-523eff2bd8c9';
+        const url = 'https://n8n-n8n.q32w7w.easypanel.host/webhook/93afffd9-2225-4b18-95b3-523eff2bd8c9';
         const getData = async () => {
             try {
                 const response = await axios.get(url,{
